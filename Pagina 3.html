@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranking</title>
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="img/cars.png" width="80"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Pagina 2.html">Sugerencias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="Pagina 3.html">Ranking de autos</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+    </header>
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">TOP 5</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">A - J</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">K - R</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">S - Z</a>
+        </li>
+      </ul>
+      <div style="text-align:center">
+      <table style="margin:0 auto" class="table-responsive aling-middle table-striped table-bordered border-primary"> 
+        <thead>
+          <tr>
+            <th scope="col">N°</th>
+            <th scope="col">Auto</th>
+            <th scope="col">Modelo</th>
+            <th scope="col">Contacto</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row" class="col-1">1</th>
+            <td><img src="img/bmw.png" class="col-4"></td>
+            <td class="col-2">BMW</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row" class="col-1">2</th>
+            <td><img src="img/bmw2.png" class="col-4"></td>
+            <td class="col-2">TOYOTA</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row" class="col-1">3</th>
+            <td><img src="img/bmw3.png" class="col-4"></td>
+            <td class="col-2">HYUNDAI</td>
+            <td class="col-2">@twitter</td>
+          </tr>
+          <tr>
+            <th scope="row" class="col-1">4</th>
+            <td><img src="img/bmw5.png" class="col-4"></td>
+            <td class="col-2">TOYOTA</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row" class="col-1">5</th>
+            <td><img src="img/bmw4.png" class="col-4"></td>
+            <td class="col-2">BMW</td>
+            <td>@mdo</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+      <div class="d-grid gap-2 col-6 mx-auto">
+        <button class="btn btn-primary" type="button" onClick="window.location.reload();" id="actu">Actualizar Ranking</button>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>

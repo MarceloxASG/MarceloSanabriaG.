@@ -1,0 +1,16 @@
+form{
+    padding-left: 15px;
+    padding-top: 7px;
+}
+.nav{
+    padding: 5px;
+}
+
+#actu{
+   margin-top: 15px; 
+   margin-bottom: 20px;
+}
+p{
+    font-size: 32px;
+    font-style: italic;
+}
